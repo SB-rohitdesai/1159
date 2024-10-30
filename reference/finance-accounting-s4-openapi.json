@@ -242,9 +242,9 @@
         }
       }
     },
-    "/customers/{customerId}": {
+    "/user/{customerId}": {
       "get": {
-        "summary": "allows external applications to retrieve customer master data.",
+        "summary": "allows data only for customer ID.",
         "tags": [
           "Customer"
         ],
